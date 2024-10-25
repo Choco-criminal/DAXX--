@@ -10,7 +10,7 @@ import asyncio, os, aiohttp
 from pathlib import Path
 from pyrogram.enums import ParseMode
 
-photo = [
+video = [
     "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
     "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
     "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
@@ -28,14 +28,14 @@ async def join_watcher(_, message):
             msg = (
                 f"📝 ᴍᴜsɪᴄ ʙᴏᴛ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ\n\n"
                 f"____________________________________\n\n"
-                f"📌 ᴄʜᴀᴛ ɴᴀᴍᴇ: {chat.title}\n"
-                f"🍂 ᴄʜᴀᴛ ɪᴅ: {chat.id}\n"
-                f"🔐 ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ: @{chat.username}\n"
-                f"🛰 ᴄʜᴀᴛ ʟɪɴᴋ: [ᴄʟɪᴄᴋ]({link})\n"
-                f"📈 ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs: {count}\n"
+                f" ᴄʜᴀᴛ ɴᴀᴍᴇ: {chat.title}\n"
+                f" ᴄʜᴀᴛ ɪᴅ: {chat.id}\n"
+                f" ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ: @{chat.username}\n"
+                f" ᴄʜᴀᴛ ʟɪɴᴋ: [ᴄʟɪᴄᴋ]({link})\n"
+                f" ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs: {count}\n"
                 f"🤔 ᴀᴅᴅᴇᴅ ʙʏ: {message.from_user.mention}"
             )
-            await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
+            await app.send_video(LOG_GROUP_ID, video=random.choice(video), caption=msg, reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(f"sᴇᴇ ɢʀᴏᴜᴘ👀", url=f"{link}")]
             ]))
 
