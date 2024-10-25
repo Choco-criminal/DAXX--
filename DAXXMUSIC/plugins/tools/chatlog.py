@@ -11,11 +11,11 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 video = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://envs.sh/ApG.jpg",
+    "https://envs.sh/ApZ.jpg",
+    "https://envs.sh/Apc.jpg",
+    "https://envs.sh/Apj.jpg",
+    "https://envs.sh/Ap_.jpg",
 ]
 
 @app.on_message(filters.new_chat_members, group=2)
@@ -35,7 +35,7 @@ async def join_watcher(_, message):
                 f" ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs: {count}\n"
                 f"🤔 ᴀᴅᴅᴇᴅ ʙʏ: {message.from_user.mention}"
             )
-            await app.send_video(LOG_GROUP_ID, video=random.choice(video), caption=msg, reply_markup=InlineKeyboardMarkup([
+            await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(f"sᴇᴇ ɢʀᴏᴜᴘ👀", url=f"{link}")]
             ]))
 
