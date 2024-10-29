@@ -9,19 +9,19 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "22906249"))
-API_HASH = getenv("API_HASH", "a8aa1616cda4920822ee4305908486d6")
+API_ID = int(getenv("API_ID", "25475489"))
+API_HASH = getenv("API_HASH", "3fc2b371f4fbb0166758736414d8be92")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7283459459:AAGMJwIjdGYr1dzA-Nbk-hgMzMli1rc24Uw")
-# -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","sung_jinwo2")
+BOT_TOKEN = getenv("BOT_TOKEN", "7010022450:AAEixXqUCOTJSkH3GiX8JSkvJEJRRbXjjL4")
+#-------------------------------------------------------
+OWNER_USERNAME = getenv("OWNER_USERNAME","UnknownX_9_11")
+#--------------------------------------------------------
+BOT_USERNAME = getenv("BOT_USERNAME" , "Fubuki_xbot")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Levi_Xprobot")
-# --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "𝐋ᴇᴠɪ 𝐀ᴄᴋᴇʀᴍᴀɴ")
+BOT_NAME = getenv("BOT_NAME" , "˹𝙁ᴜʙᴜᴋɪ ✘ 𝐌ᴜsɪᴄ˼🫧")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "chico_daddy")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Ur_Vortex")
 # ---------------------------------------------------------
 UPSTREAM_REPO = UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -36,7 +36,7 @@ SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Aditya:0099@cluster0.vvcyc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Choco:Choco@cluster0.yddf3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -45,7 +45,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002182829714))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002400130574"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", 7292418294))
@@ -118,7 +118,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION1", "BQFJCmcAeJ4Y1-0SuDQ4cobYbJ5ddA0ZFDkLDZ7Kr9GQbmeRajew9u_0-gzZMtfSrC6QW1T76l4fymvlhiAZny2Tvur2ZQSXukZiUaBOYt9G1FA5s5abhks5JuvccPqaCMF3mFScR12m6PjC2RO8_u2G7CXUROnD7_9F7FpEZ0BUnFFeWYsNxnUHVyr1JcuMdOl-wwZ-BTcfcz9gsK4x-3aRNLHUgvqLlu6T-PeTOpE017vPdFq0zuFYHEz9yZsrrHTl5Sp2F-P1ltJzq76czBhhnbUe4gtlcSE1OZZYhmLnYW9XzL8F-vFfei1d5hQpomKfnlzr9y6LenvrRjVIZDfGI1mcwgAAAABu4x2OAA")
+STRING1 = getenv("STRING_SESSION1", "BQGsE4IALp1bnS1oA5jLIh6jE5kPj36JXXvMWGaT6V93LH2o-UNe42tqJ2qn4getuhVlI4e5Dw3dU5EHLv2vVcHRyFfDr5-yD3ubvIZGfeY5D6ESuQv8VY51QZGqa7EzVClJR-agbZMSDYYLN812sFqcUH3fv1ggqg2BgRiSfffkBFA3AqmzF-efUHok_cSKsL7g95ew7cn3Vb9uUPyupsnznWIZemAoQwc7Ou5N74s0egrd_acBVKQn1aUy6xH7mLiN73-q9qB4BvNk8Q57VhomVWRTXfPL4MNgyT7WUHHZmPbogQxIJ2lINbWx-OGtaYV5hvLsSb78oRGKBPkLBvgd5XU9SwAAAAFv0KDhAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
