@@ -13,7 +13,7 @@ API_ID = int(getenv("API_ID" , "25475489"))
 API_HASH = getenv("API_HASH" , "3fc2b371f4fbb0166758736414d8be92")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN" , "7010022450:AAEixXqUCOTJSkH3GiX8JSkvJEJRRbXjjL4")
+BOT_TOKEN = getenv("BOT_TOKEN" , "7617090520:AAH6OqlzkAGlJUhtd6O3yd9sRfDo6lxwn00")
 #-------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","UnknownX_9_11")
 #--------------------------------------------------------
@@ -45,7 +45,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID" , -1002436680661)) 
+LOGGER_ID = int(getenv("LOGGER_ID" , -1002122538649)) 
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID" , 1266240012))
