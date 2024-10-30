@@ -9,11 +9,11 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "25475489"))
-API_HASH = getenv("API_HASH", "3fc2b371f4fbb0166758736414d8be92")
+API_ID = int(getenv("API_ID" , "25475489"))
+API_HASH = getenv("API_HASH" , "3fc2b371f4fbb0166758736414d8be92")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7010022450:AAEixXqUCOTJSkH3GiX8JSkvJEJRRbXjjL4")
+BOT_TOKEN = getenv("BOT_TOKEN" , "7010022450:AAEixXqUCOTJSkH3GiX8JSkvJEJRRbXjjL4")
 #-------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","UnknownX_9_11")
 #--------------------------------------------------------
@@ -36,7 +36,7 @@ SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Choco:Choco@cluster0.yddf3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI" , "mongodb+srv://Choco:Choco@cluster0.yddf3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -48,7 +48,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID" , "-1002240992371"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 1266240012))
+OWNER_ID = int(getenv("OWNER_ID" , 1266240012))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
