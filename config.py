@@ -13,11 +13,11 @@ API_ID = int(getenv("API_ID" , "25475489"))
 API_HASH = getenv("API_HASH" , "3fc2b371f4fbb0166758736414d8be92")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN" , "7791039747:AAFhQdJJagRoL97zhGX-cvO2FP9r4YiqCQU")
+BOT_TOKEN = getenv("BOT_TOKEN" , "7010022450:AAEixXqUCOTJSkH3GiX8JSkvJEJRRbXjjL4")
 #-------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","UnknownX_9_11")
 #--------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Htvjubbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Fubuki_xbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "˹𝙁ᴜʙᴜᴋɪ ✘ 𝐌ᴜsɪᴄ˼🫧")
 # ---------------------------------------------------------
@@ -45,7 +45,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID" , "-1002436680661")) 
+LOGGER_ID = int(getenv("LOGGER_ID" , -1002436680661)) 
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID" , 1266240012))
