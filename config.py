@@ -25,7 +25,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "Ur_Vortex")
 # ---------------------------------------------------------
 UPSTREAM_REPO = UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sungjinw04/DAXXMUSIC",
+    "https://github.com/Choco-criminal/Soul",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
