@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN" , "7791039747:AAFhQdJJagRoL97zhGX-cvO2FP9r4YiqCQU
 #-------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","UnknownX_9_11")
 #--------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Fubuki_xbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Htvjubbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "˹𝙁ᴜʙᴜᴋɪ ✘ 𝐌ᴜsɪᴄ˼🫧")
 # ---------------------------------------------------------
