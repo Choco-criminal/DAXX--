@@ -29,7 +29,7 @@ UPSTREAM_REPO = UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+    "GIT_TOKEN", " 11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"
 ) 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -71,8 +71,8 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/eldian_networks")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/eldian_empire")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_bottt")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ANIME_CHAT_ANG")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -87,7 +87,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/eldian_empire")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
-AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
+AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "900"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
 # --------------------------------------------------------------------------------
@@ -103,7 +103,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b582008
 
 
 # -----------------------------------------------------------------------------------
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 509))
 # ------------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------------
