@@ -9,7 +9,7 @@ from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.utils import bot_sys_stats
 from DAXXMUSIC.utils.decorators.language import language
 from DAXXMUSIC.utils.inline import supp_markup
-from config import BANNED_USERS
+from config import BANNED_USERS, PING_IMG_URL
 
 
 @app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
@@ -17,7 +17,7 @@ from config import BANNED_USERS
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_video(
-        video="https://graph.org/file/5690109178f081adf464d.mp4",
+        video=config.PING_IMG_URL,
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await DAXX.ping()
