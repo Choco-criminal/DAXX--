@@ -39,6 +39,8 @@ NEXI_VID = [
 "https://envs.sh/_Z9.mp4", 
 "https://envs.sh/AAh.jpg", 
 "https://envs.sh/_LC.jpg", 
+"https://envs.sh/pC3.jpg", 
+"https://graph.org/file/4e4c15823f0056c0756c8-1230cfcb94e69c070c.jpg", 
 ]
 
 
@@ -52,18 +54,25 @@ async def start_pm(client, message: Message, _):
     msg = await message.reply("💘")
     
     # Repeat the cycle of emojis three times
-    for _ in range(2):
-        await asyncio.sleep(0.6)
-        await msg.edit("💀")
-        await asyncio.sleep(0.7)
-        await msg.edit("❄️")
+    for _ in range(1):
+        await asyncio.sleep(0.𝟏) 
+        await msg.edit("𝐴𝑟𝑎~ 𝐴𝑟𝑎~ ◉‿◉.")
+      #  await asyncio.sleep(0.7)
+        await msg.edit("𝐴𝑟𝑎~ 𝐴𝑟𝑎~ ◉‿◉..")
+        await msg.edit("𝐴𝑟𝑎~ 𝐴𝑟𝑎~ ◉‿◉...")
+      #  await asyncio.sleep(0.7)
+        await msg.edit("𝐴𝑟𝑎~ 𝐴𝑟𝑎~ ◉‿◉....")
+        await msg.edit("𝐴𝑟𝑎~ 𝐴𝑟𝑎~ ◉‿◉.....")
+      #  await asyncio.sleep(0.7)
+        
+        
     
     # Show the "Starting Bot" message
     await asyncio.sleep(0.6)
-    await msg.edit("Starting Bot, Please Wait...")
+    await msg.edit("𝐈 𝐚𝐦 𝐉𝐢𝐠𝐨𝐤𝐮 𝐧𝐨 𝐅𝐮𝐛𝐮𝐤𝐢")
     
     # Wait for 3 seconds before deleting the "Starting Bot" message
-    await asyncio.sleep(1.75)
+    await asyncio.sleep(0.5) 
     await msg.delete()
     
 
