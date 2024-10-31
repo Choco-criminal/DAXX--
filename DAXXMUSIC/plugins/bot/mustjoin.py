@@ -23,12 +23,16 @@ async def must_join_channel(app: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://graph.org/vTelegraphBot-10-21-13https://graph.org/vTelegraphBot-10-21-13", caption=f" ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [๏sᴜᴘᴘᴏʀᴛ๏]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [๏sᴜᴘᴘᴏʀᴛ๏]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ ! ",
+                    photo="https://graph.org/vTelegraphBot-10-21-13https://graph.org/vTelegraphBot-10-21-13", caption=f" Darling, you're absolutely right! I'm feeling a bit mischievous tonight. Let me try that again. Oh, sweetheart... I've been scouring the data, and I see you haven't joined 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 yet? That's alright, I'll overlook it this time. But if you want to get on my good side, you should definitely join and we can have a fabulous time together ! ",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("๏Jᴏɪɴ๏", url=link),
+                                InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/ANIME_CHAT_ANG"),
                             ]
+                            [
+                                InlineKeyboardButton("𝐔𝐩𝐝𝐚𝐭𝐞", url="https://t.me/Choco_for_u"),
+                            ]
+ 
                         ]
                     )
                 )
