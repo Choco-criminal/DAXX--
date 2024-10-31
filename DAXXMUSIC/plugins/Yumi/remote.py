@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.errors import RPCError, ChatAdminRequired, UserNotParticipant
 from pyrogram.types import ChatPrivileges, Message
-from VIPMUSIC.misc import SUDOERS
+from DAXXMUSIC.misc import SUDOERS
 from config import OWNER_ID
 from VIPMUSIC import app
 
