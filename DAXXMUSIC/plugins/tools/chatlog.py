@@ -11,11 +11,41 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 video = [
-    "https://envs.sh/_LC.jpg",
-    "https://envs.sh/AGc.mp4",
-    "https://envs.sh/A_e.jpg",
-    "https://envs.sh/AAh.jpg",
-    "https://envs.sh/Ap_.jpg",
+"https://envs.sh/_5B.jpg",
+
+"https://envs.sh/_5I.jpg",
+
+"https://envs.sh/_5n.jpg",
+
+"https://envs.sh/_5T.jpg",
+
+"https://envs.sh/_5p.jpg",
+
+"https://envs.sh/_5A.jpg",
+
+"https://envs.sh/_5_.jpg",
+
+"https://envs.sh/_5p.jpg",
+
+"https://envs.sh/_5c.jpg",
+
+"https://envs.sh/_5L.jpg",
+
+"https://envs.sh/_5G.jpg",
+
+"https://envs.sh/_5Y.jpg",
+
+"https://envs.sh/_53.jpg",
+
+"https://envs.sh/_5R.jpg",
+
+"https://envs.sh/_51.jpg",
+
+"https://envs.sh/_54.jpg",
+
+"https://envs.sh/_5U.jpg",
+
+"https://envs.sh/_5k.jpg",
 ]
 
 @app.on_message(filters.new_chat_members, group=2)
