@@ -145,21 +145,21 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org//file/b49463ae8e0fdecec3744.jpg"
+    "START_IMG_URL", "https://envs.sh/pC0.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org//file/70fb324cda8936a3f9d00.jpg"
+    "PING_IMG_URL", "https://envs.sh/AAt.mp4"
 )
-PLAYLIST_IMG_URL = "https://graph.org//file/be2dd46a1c4b5474c6084.jpg"
-STATS_IMG_URL = "https://graph.org//file/b49463ae8e0fdecec3744.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/be2dd46a1c4b5474c6084.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/70fb324cda8936a3f9d00.jpg"
-STREAM_IMG_URL = "https://graph.org//file/70fb324cda8936a3f9d00.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org//file/be2dd46a1c4b5474c6084.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/be2dd46a1c4b5474c6084.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org//file/70fb324cda8936a3f9d00.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org//file/b49463ae8e0fdecec3744.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org//file/b49463ae8e0fdecec3744.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/p4F.jpg"
+STATS_IMG_URL = "https://envs.sh/pYG.mp4"
+TELEGRAM_AUDIO_URL = "https://envs.sh/pC3.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/pC3.jpg"
+STREAM_IMG_URL = "https://envs.sh/p4e.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/p4w.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/4e4c15823f0056c0756c8-1230cfcb94e69c070c.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/vTelegraphBot-10-21-13https://graph.org/vTelegraphBot-10-21-13"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/vTelegraphBot-10-21-13https://graph.org/vTelegraphBot-10-21-13"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/c7ea15528fc9816e05141-0a5598ac2585dae36f.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
