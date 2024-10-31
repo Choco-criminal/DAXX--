@@ -11,14 +11,14 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="DAXXAss1",
+            name="𝐅𝐮𝐛𝐮𝐤𝐢 𝟏",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="DAXXAss2",
+            name="𝐅𝐮𝐛𝐮𝐤𝐢 𝟐",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("luffyxnetwork")
-                await self.one.join_chat("luffy_x_support")
+                await self.one.join_chat("https://t.me/ANIME_CHAT_ANG")
+                await self.one.join_chat("https://t.me/ANIME_CHAT_ANG")
             except:
                 pass
             assistants.append(1)
@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("luffy_x_support")
-                await self.one.join_chat("luffyxnetwork")
+                await self.two.join_chat("https://t.me/ANIME_CHAT_ANG")
+                await self.one.join_chat("https://t.me/ANIME_CHAT_ANG")
             except:
                 pass
             assistants.append(2)
@@ -93,8 +93,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("luffyxnetwork")
-                await self.one.join_chat("luffy_x_support")
+                await self.three.join_chat("https://t.me/ANIME_CHAT_ANG")
+                await self.one.join_chat("https://t.me/ANIME_CHAT_ANG")
             except:
                 pass
             assistants.append(3)
@@ -114,8 +114,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("luffy_x_support")
-                await self.one.join_chat("luffyxnetwork")
+                await self.four.join_chat("https://t.me/ANIME_CHAT_ANG")
+                await self.one.join_chat("https://t.me/ANIME_CHAT_ANG")
             except:
                 pass
             assistants.append(4)
@@ -135,8 +135,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("luffyxnetwork")
-                await self.one.join_chat("luffy_x_support")
+                await self.five.join_chat("https://t.me/ANIME_CHAT_ANG")
+                await self.one.join_chat("https://t.me/ANIME_CHAT_ANG")
             except:
                 pass
             assistants.append(5)
