@@ -30,9 +30,15 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://telegra.ph//file/c978d3dbe85a81ed48fd1.mp4",
-"https://telegra.ph//file/98060c659240628d0f450.mp4",
-
+"https://envs.sh/pYY.mp4",
+"https://envs.sh/pC0.mp4",
+"https://envs.sh/pFS.mp4", 
+"https://envs.sh/pYG.mp4", 
+"https://envs.sh/_Z5.mp4", 
+"https://envs.sh/_ZG.mp4", 
+"https://envs.sh/_Z9.mp4", 
+"https://envs.sh/AAh.jpg", 
+"https://envs.sh/_LC.jpg", 
 ]
 
 
@@ -43,7 +49,7 @@ async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     
     # Sending initial emoji
-    msg = await message.reply("⚡")
+    msg = await message.reply("💘")
     
     # Repeat the cycle of emojis three times
     for _ in range(2):
