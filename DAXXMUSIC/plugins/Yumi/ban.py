@@ -741,8 +741,8 @@ async def check_warns(_, message: Message):
 
 
 from pyrogram import filters
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
+from DAXXMUSIC import app
+from DAXXMUSIC.misc import SUDOERS
 import asyncio
 from pyrogram.errors import FloodWait
 
