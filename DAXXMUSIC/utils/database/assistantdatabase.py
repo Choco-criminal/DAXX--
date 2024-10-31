@@ -10,8 +10,8 @@
 
 import random
 
-from VIPMUSIC import userbot
-from VIPMUSIC.core.mongo import mongodb
+from DAXXMUSIC import userbot
+from DAXXMUSIC.core.mongo import mongodb
 
 db = mongodb.assistants
 
