@@ -55,7 +55,7 @@ async def start_pm(client, message: Message, _):
     
     # Repeat the cycle of emojis three times
     for _ in range(1):
-        await asyncio.sleep(0.𝟏) 
+        await asyncio.sleep(0.1) 
         await msg.edit("𝐴𝑟𝑎~ 𝐴𝑟𝑎~ ◉‿◉.")
       #  await asyncio.sleep(0.7)
         await msg.edit("𝐴𝑟𝑎~ 𝐴𝑟𝑎~ ◉‿◉..")
