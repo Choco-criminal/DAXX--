@@ -19,13 +19,13 @@ from DAXXMUSIC.misc import SUDOERS
 from DAXXMUSIC.core.mongo import mongodb
 from utils.error import capture_err
 from DAXXMUSIC.utils.keyboard import ikb
-from DAXXMUSIC.utils.database import save_filter
+from DAXXMUSIC.utils.database.extra import save_filter
 from DAXXMUSIC.utils.functions import (
     extract_user,
     extract_user_and_reason,
     time_converter,
 )
-from utils.permissions import adminsOnly, member_permissions
+from utils.permisons import adminsOnly, member_permissions
 from config import BANNED_USERS
 
 warnsdb = mongodb.warns
