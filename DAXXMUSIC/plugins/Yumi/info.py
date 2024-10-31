@@ -7,7 +7,7 @@ from typing import Optional, Union
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import enums, filters
 
-from VIPMUSIC import app
+from DAXXMUSIC import app
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
@@ -32,20 +32,19 @@ resize_text = lambda text_size, text: (
 # --------------------------------------------------------------------------------- #
 
 
-INFO_TEXT = """**
-❅─────✧❅✦❅✧─────❅
-            ✦ ᴜsᴇʀ ɪɴғᴏ ✦
+INFO_TEXT = """
+**◇  ─────✧ ✦ ✧─────  ◇**
+          ᴜsᴇʀ ɪɴғᴏ 
+          ◉ ──── ◉
 
-➻ ᴜsᴇʀ ɪᴅ ‣ **`{}`
-**➻ ғɪʀsᴛ ɴᴀᴍᴇ ‣ **{}
-**➻ ʟᴀsᴛ ɴᴀᴍᴇ ‣ **{}
-**➻ ᴜsᴇʀɴᴀᴍᴇ ‣ **`{}`
-**➻ ᴍᴇɴᴛɪᴏɴ ‣ **{}
-**➻ ʟᴀsᴛ sᴇᴇɴ ‣ **{}
-**➻ ᴅᴄ ɪᴅ ‣ **{}
-**➻ ʙɪᴏ ‣ **`{}`
+  **▶︎ ᴜsᴇʀ ɪᴅ »  **`{}`
+  **▶︎ ғɪʀsᴛ ɴᴀᴍᴇ » **{}
+  **▶︎ ʟᴀsᴛ ɴᴀᴍᴇ » **{}
+  **▶︎ ᴜsᴇʀɴᴀᴍᴇ » **`{}`
+  **▶︎ ᴍᴇɴᴛɪᴏɴ ‣ »**{}
+  **▶︎ ʙɪᴏ ‣ **`{}`
 
-**❅─────✧❅✦❅✧─────❅**
+**◇  ─────✧ ✦ ✧─────  ◇**
 """
 
 # --------------------------------------------------------------------------------- #
