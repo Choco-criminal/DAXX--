@@ -19,7 +19,7 @@ from DAXXMUSIC.misc import SUDOERS
 from DAXXMUSIC.core.mongo import mongodb
 from utils.error import capture_err
 from DAXXMUSIC.utils.keyboard import ikb
-from utils.database import save_filter
+
 from DAXXMUSIC.utils.functions import (
     extract_user,
     extract_user_and_reason,
