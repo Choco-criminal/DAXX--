@@ -2,7 +2,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import Message,InlineKeyboardButton,InlineKeyboardMarkup
 from pyrogram.enums import ChatAction
-from VIPMUSIC import app
+from DAXXMUSIC import app
 from config import BOT_USERNAME
 
 
