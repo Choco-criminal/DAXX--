@@ -37,10 +37,7 @@ NEXI_VID = [
 "https://envs.sh/_Z5.mp4", 
 "https://envs.sh/_ZG.mp4", 
 "https://envs.sh/_Z9.mp4", 
-"https://envs.sh/AAh.jpg", 
-"https://envs.sh/_LC.jpg", 
-"https://envs.sh/pC3.jpg", 
-"https://graph.org/file/4e4c15823f0056c0756c8-1230cfcb94e69c070c.jpg", 
+
 ]
 
 
