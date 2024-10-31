@@ -12,7 +12,7 @@ import requests
 import config   
 
 from utils import get_image, get_couple, save_couple
-from VIPMUSIC import app
+from DAXXMUSIC import app
 
 
 # Get current date in GMT+5:30 timezone
