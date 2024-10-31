@@ -4,8 +4,8 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
+from DAXXMUSIC import app
+from DAXXMUSIC.misc import SUDOERS
 
 
 # Command handler for /givelink command
