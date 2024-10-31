@@ -11,10 +11,10 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 video = [
-    "https://envs.sh/ApG.jpg",
-    "https://envs.sh/ApZ.jpg",
-    "https://envs.sh/Apc.jpg",
-    "https://envs.sh/Apj.jpg",
+    "https://envs.sh/_LC.jpg",
+    "https://envs.sh/AGc.mp4",
+    "https://envs.sh/A_e.jpg",
+    "https://envs.sh/AAh.jpg",
     "https://envs.sh/Ap_.jpg",
 ]
 
