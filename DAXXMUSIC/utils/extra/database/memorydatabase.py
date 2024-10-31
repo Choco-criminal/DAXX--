@@ -13,7 +13,7 @@ import os
 from typing import Dict, List, Union
 
 import config
-from VIPMUSIC.core.mongo import mongodb
+from DAXXMUSIC.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
