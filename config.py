@@ -154,6 +154,7 @@ PING_IMG_URL = getenv(
 )
 PLAYLIST_IMG_URL = "https://envs.sh/p4F.jpg"
 STATS_IMG_URL = "https://envs.sh/pYG.mp4"
+COUPLE_IMG_URL = "https://envs.sh/Abq.mp4"
 TELEGRAM_AUDIO_URL = "https://envs.sh/pC3.jpg"
 TELEGRAM_VIDEO_URL = "https://envs.sh/pC3.jpg"
 STREAM_IMG_URL = "https://envs.sh/p4e.jpg"
