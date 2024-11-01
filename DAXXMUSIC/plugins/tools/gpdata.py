@@ -93,7 +93,7 @@ async def deletechatphoto(_, message):
 
 # --------------------------------------------------------------------------------- #
 
-@app.on_message(filters.command("changedp") SUDOERS) ) 
+@app.on_message(filters.command("changedp") SUDOERS)  
 async def setchatphoto(_, message):
       reply = message.reply_to_message
       chat_id = message.chat.id
