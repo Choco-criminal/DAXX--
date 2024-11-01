@@ -93,7 +93,32 @@ async def deletechatphoto(_, message):
 
 # --------------------------------------------------------------------------------- #
 
-@app.on_message(filters.command("setphoto") & filters.user(OWNER_ID) & admin_filter)
+@app.on_message(filters.command("changedp") & filters.user(OWNER_ID) ) 
+async def setchatphoto(_, message):
+      reply = message.reply_to_message
+      chat_id = message.chat.id
+      user_id = message.from_user.id
+      msg = await message.reply_text("ᴘʀᴏᴄᴇssɪɴɢ...") 
+      if message.chat.type == enums.ChatType.PRIVATE:
+           await msg.edit("`ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋ ᴏɴ ɢʀᴏᴜᴘs !`") 
+      elif not reply:
+           await msg.edit("**ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ.**")
+      elif reply:
+          try:
+             if admin_check.privileges.can_change_info:
+                photo = await reply.download()
+                await message.chat.set_photo(photo=photo)
+                await msg.edit_text("**sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴇᴡ ᴘʀᴏғɪʟᴇ ᴘʜᴏᴛᴏ ɪɴsᴇʀᴛ !\nʙʏ** {}".format(message.from_user.mention))
+             else:
+                await msg.edit("**sᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢ ʜᴀᴘᴘᴇɴᴇᴅ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ᴘʜᴏᴛᴏ !**")
+     
+          except:
+              await msg.edit("**ᴛʜᴇ ᴜsᴇʀ ᴍᴏsᴛ ɴᴇᴇᴅ ᴄʜᴀɴɢᴇ ɪɴғᴏ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴘ ᴘʜᴏᴛᴏ !**")
+
+# --------------------------------------------------------------------------------- #
+
+
+@app.on_message(filters.command("setphoto") & admin_filter)
 async def setchatphoto(_, message):
       reply = message.reply_to_message
       chat_id = message.chat.id
