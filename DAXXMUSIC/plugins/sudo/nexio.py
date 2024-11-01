@@ -37,14 +37,14 @@ strict_txt = [
 
 
  
-ban = ["ban","boom","udade","chodde"]
-unban = ["unban","Wapisaa"]
-mute = ["mute","silent","chup","shutup"]
-unmute = ["unmute","speak","free","bolnede"]
-kick = ["kick", "out","nikaal","lwda"]
+ban = ["ban","mc"]
+unban = ["unban","cumback"]
+mute = ["mute","silent","shant","shutup"]
+unmute = ["unmute","speak"]
+kick = ["kick","out","nikaal"]
 promote = ["promote","adminship","admin"]
 fullpromote = ["fullpromote","fulladmin"]
-demote = ["demote","lele"]
+demote = ["demote"]
 group = ["group"]
 channel = ["channel"]
 
@@ -52,7 +52,7 @@ channel = ["channel"]
 # ========================================= #
 
 
-@app.on_message(filters.command(["ung","ungjinwoo"], prefixes=["s", "S"]) & admin_filter)
+@app.on_message(filters.command(["hoco","ohan"], prefixes=["c", "j"]) & admin_filter)
 async def restriction_app(app :app, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
