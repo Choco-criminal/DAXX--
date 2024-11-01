@@ -105,7 +105,7 @@ async def setchatphoto(_, message):
            await msg.edit("**ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ.**")
       elif reply:
           try:
-             if admin_check.user(OWNER_ID):
+             if filters.user(OWNER_ID):
                 photo = await reply.download()
                 await message.chat.set_photo(photo=photo)
                 await msg.edit_text("**sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴇᴡ ᴘʀᴏғɪʟᴇ ᴘʜᴏᴛᴏ ɪɴsᴇʀᴛ !\nʙʏ** {}".format(message.from_user.mention))
