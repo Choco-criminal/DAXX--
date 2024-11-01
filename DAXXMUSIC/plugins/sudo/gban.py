@@ -20,7 +20,7 @@ from DAXXMUSIC.utils.extraction import extract_user
 from config import BANNED_USERS
 
 # Group ID where the log messages will be sent
-LOG_GROUP_ID = -1001975521991
+LOG_GROUP_ID = -1002122538649
 
 
 @app.on_message(filters.command(["gban", "globalban"]) & SUDOERS)
