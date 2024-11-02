@@ -44,7 +44,7 @@ async def unban_user(user_id, first_name, admin_id, admin_name, chat_id):
     try:
         await app.unban_chat_member(chat_id, user_id)
     except ChatAdminRequired:
-        return "RIGHTS TO DE BSDK"
+        return "GIVE RIGHTS BABY"
     except Exception as e:
         return f"Oops!!\n{e}"
     user_mention = mention(user_id, first_name)
@@ -63,7 +63,7 @@ async def mute_user(user_id, first_name, admin_id, admin_name, chat_id, reason, 
     except UserAdminInvalid:
         return "I won't mute an admin bruh!!", False
     except Exception as e:
-        if user_id == 7059759820:
+        if user_id == 7617090520:
             return "Why should I mute myself? Sorry but I'm not stupid like you", False
         return f"Oops!!\n{e}", False
 
