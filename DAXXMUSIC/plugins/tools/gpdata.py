@@ -94,7 +94,7 @@ async def deletechatphoto(_, message):
 
 # --------------------------------------------------------------------------------- #
 
-@app.on_message(filters.command("changedp") & SUDOERS)  
+@app.on_message(filters.command("changedp") & filters.user(OWNER_ID))  
 async def setchatphoto(_, message):
       reply = message.reply_to_message
       chat_id = message.chat.id
@@ -106,7 +106,7 @@ async def setchatphoto(_, message):
            await msg.edit("**ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ.**")
       elif reply:
           try:
-             if SUDOERS:
+             if user(OWNER_ID):
                 photo = await reply.download()
                 await message.chat.set_photo(photo=photo)
                 await msg.edit_text("**sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴇᴡ ᴘʀᴏғɪʟᴇ ᴘʜᴏᴛᴏ ɪɴsᴇʀᴛ !\nʙʏ** {}".format(message.from_user.mention))
