@@ -5,7 +5,6 @@ from os import environ
 from typing import Union, Optional
 from PIL import Image, ImageDraw, ImageFont
 from os import environ
-import random
 from pyrogram import Client, filters
 from pyrogram.types import ChatJoinRequest, InlineKeyboardButton, InlineKeyboardMarkup
 from PIL import Image, ImageDraw, ImageFont
@@ -23,7 +22,6 @@ from pyrogram.types import *
 from logging import getLogger
 from pyrogram import Client, filters
 import requests
-import random
 import os
 import re
 import asyncio
