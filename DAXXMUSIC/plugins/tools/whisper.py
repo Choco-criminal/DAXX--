@@ -8,7 +8,7 @@ from pyrogram.types import (
 
 whisper_db = {}
 
-switch_btn = InlineKeyboardMarkup([[InlineKeyboardButton("💒 Start Whisper", switch_inline_query_current_chat="")]])
+switch_btn = InlineKeyboardMarkup([[InlineKeyboardButton(" Start Whisper", switch_inline_query_current_chat="")]])
 
 async def _whisper(_, inline_query):
     data = inline_query.query
@@ -17,9 +17,9 @@ async def _whisper(_, inline_query):
     if len(data.split()) < 2:
         mm = [
             InlineQueryResultArticle(
-                title="💒 Whisper",
+                title=" Whisper",
                 description=f"@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]",
-                input_message_content=InputTextMessageContent(f"💒 Usage:\n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
+                input_message_content=InputTextMessageContent(f" Usage:\n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
                 thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
                 reply_markup=switch_btn
             )
@@ -109,7 +109,7 @@ async def whispes_cb(_, query):
 async def in_help():
     answers = [
         InlineQueryResultArticle(
-            title="💒 Whisper",
+            title=" Whisper",
             description=f"@Hinata_X_Music_robot [USERNAME | ID] [TEXT]",
             input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@Levi_Xprobot (Target Username or ID) (Your Message).\n\n**Example:**\n@Levi_Xprobot @username Sung Jinwoo is my owner"),
             thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
