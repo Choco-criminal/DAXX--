@@ -13,7 +13,7 @@ from Mikobot.state import state  # Import the state function
 
 # <=======================================================================================================>
 
-url_sfw = "https://nekos.best/api/v2/"
+url_sfw = "https://api.nekosapi.com/v3"
 
 allowed_commands = [
     "waifu",
