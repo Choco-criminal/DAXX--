@@ -3,7 +3,6 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
-from config import *
 from DAXXMUSIC import app
 from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.utils import bot_sys_stats
